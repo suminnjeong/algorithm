@@ -14,7 +14,7 @@ public class Q01Max3 {
 		
 		int max = a;
 		if (b > max) max = b; 
-		else if (c > max) max = c;
+		if (c > max) max = c;
 		
 		System.out.println("최댓값은 " + max + "입니다.");
 
